@@ -1,0 +1,35 @@
+{
+  "name": "Associative Array",
+  "version": "0.1.0",
+  "description": "A library that offers an simple associative array",
+  "keywords": "datastructure, array, associative, map",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aberratic/associative_array.git"
+  },
+  "authors": [
+    {
+      "name": "Stefan Luecke",
+      "email": "git@aberrational.org",
+      "url": "https://aberrational.org"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/aberratic/associative_array/",
+  "frameworks": "*",
+  "platforms": "*",
+  "includeDir": "include",
+  "srcDir": "src",
+  "export": {
+    "exclude": [
+      ".pio",
+      "build",
+      "doc",
+      "test",
+      "sdkconfig",
+      "sdkconfig.esp32dev",
+      ".github",
+      ".gitignore"
+    ]
+  }
+}
